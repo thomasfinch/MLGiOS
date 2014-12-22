@@ -1,0 +1,32 @@
+title = "MLGiOS";
+items = (
+  {
+  	cell = PSGroupCell;
+  },
+  {
+  	cell = PSLinkListCell;
+  	label = "Activator Action";
+  	isController = true;
+  	bundle = LibActivator;
+  	activatorListener = com.thomasfinch.mlgios;
+  },
+  {
+    cell = PSGroupCell;
+  },
+  {
+    cell = PSButtonCell;
+    action = GithubButtonTapped;
+    icon = "Github.png";
+    label = "View Source on GitHub";
+  },
+  {
+    cell = PSButtonCell;
+    action = TFTwitterButtonTapped;
+    icon = "Twitter.png";
+    label = "Developed by @tomf64";
+  },
+  {
+    cell = PSGroupCell;
+    footerText = "© 2014 Thomas Finch";
+  }
+);

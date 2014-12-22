@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = MLGiOS;
+	cell = PSLinkCell;
+	detail = MLGiOSListController;
+	icon = MLGiOS.png;
+	isController = 1;
+	label = MLGiOS;
+    };
+}

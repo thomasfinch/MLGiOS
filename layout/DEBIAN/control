@@ -1,0 +1,9 @@
+Package: com.thomasfinch.mlgios
+Name: MLGiOS
+Depends: mobilesubstrate, libactivator
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: DaNk MeMeS oN uR iPhOnE
+Maintainer: Thomas Finch
+Author: Thomas Finch
+Section: Tweaks
