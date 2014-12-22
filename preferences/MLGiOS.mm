@@ -25,7 +25,7 @@
 
 -(void)GithubButtonTapped
 {
-    NSURL *githubURL = [NSURL URLWithString:@"https://github.com/thomasfinch/Dim"];
+    NSURL *githubURL = [NSURL URLWithString:@"https://github.com/thomasfinch/MLGiOS"];
     [[UIApplication sharedApplication] openURL:githubURL];
 }
 
